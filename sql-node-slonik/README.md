@@ -1,4 +1,4 @@
-# Ejercicios Express-Slonik-Postgres 🐘
+# Ejercicios Node-Slonik-Postgres 🐘
 
 ## Antes de empezar 📚
 
