@@ -1,0 +1,26 @@
+{
+  "name": "sql-node-slonik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "db:create": "node scripts/creations.js",
+    "db:insert": "node scripts/insertions.js",
+    "db:up": "npm run db:create && npm run db:insert",
+    "db:drop": "node scripts/drops.js",
+    "docker:up": "docker-compose up",
+    "docker:down": "docker-compose down",
+    "docker:purge": "npm run docker:down && docker rmi -f $(docker images -a -q)",
+    "docker:stats": "docker stats",
+    "docker:current": "docker ps && docker images && docker-compose ps && docker-compose images",
+    "queries:check": "node exercises"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "slonik": "^23.9.0"
+  }
+}
