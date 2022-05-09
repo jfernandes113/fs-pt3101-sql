@@ -1,0 +1,37 @@
+[
+  {
+    "name": "El nombre del viento Vol.1",
+    "author": "Patrick Rothfuss",
+    "isbn": "123-B",
+    "rented_dni": "123123123H"
+  },
+  {
+    "name": "El nombre del viento Vol.2",
+    "author": "Patrick Rothfuss",
+    "isbn": "124-B",
+    "rented_dni": "5555555K"
+  },
+  {
+    "name": "El nombre del viento Vol.3",
+    "author": "Patrick Rothfuss",
+    "isbn": "125-B",
+    "rented_dni": "2222222K"
+  },
+  {
+    "name": "Memorias de Idhún Vol.1",
+    "author": "Laura Gallego",
+    "isbn": "432-H"
+  },
+  {
+    "name": "Memorias de Idhún Vol.2",
+    "author": "Laura Gallego",
+    "isbn": "433-H",
+    "rented_dni": "545454545K"
+  },
+  {
+    "name": "Memorias de Idhún Vol.3",
+    "author": "Laura Gallego",
+    "isbn": "434-H",
+    "rented_dni": "2222222K"
+  }
+]
