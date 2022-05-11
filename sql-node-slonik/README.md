@@ -67,7 +67,7 @@ Escribe los SELECT correspondientes dentro de las funciones asociadas a cada que
 10. Devuelve el título y el `mpaa_rating` de todas las películas cuya valoración `mpaa` no sea null
 11. Devuelve el título, `production_budget` y distribuidora de todas aquellas películas cuyos costes (`production_budget`) hayan sido inferiores a `500000$`
 12. Devuelve el título, `major_genre` y `production_budget` de las 10 películas más costosas
-13. Devuelve el título y el orígen (`source`) de todas las películas cuyo `source` sea `remake`
+13. Devuelve el título y el orígen (`source`) de todas las películas cuyo `source` sea `Remake`
 14. Devuelve el título, la distribuidora y el rating imdb de todas las películas cuyo `imdb_rating` no sea null
 15. Devuelve el título y `rotten_tomatoes_rating` de las 100 películas menor valoradas según este campo.
 16. Devuelve el título, `major_genre`, imdb_rating e imdb_votes de las 20 películas mejor valoradas y a la vez con más votos de todas
@@ -81,7 +81,7 @@ Escribe los SELECT correspondientes dentro de las funciones asociadas a cada que
 
 ### Joins ✨
 
-24. Devuelve `query_name`, `production_budget` y distribuidora de los que trabajen juntos y cuya distribuidora no sea null
+24. Devuelve `query_name`, `production_budget` y `distributor`. Ningún valor ha de ser NULL (Entre la información pedida en este ejercicio solo algunas distribuidoras tienen valor NULL)
 25. Devuelve `query_name` y el total de películas que cada director ha dirigido
 26. Devuelve `query_name`, título e `imdb_votes` de las 50 películas menos votadas según `imdb_votes`
 27. Devuelve `query_name` y distribuidora donde el director sea `Christopher Nolan`
