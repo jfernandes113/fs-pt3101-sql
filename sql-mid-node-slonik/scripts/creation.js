@@ -1,8 +1,6 @@
 const db = require("../configs/db");
 const { sql } = require("slonik");
 
-array.map((element) => element);
-
 const deleteAll = async () => {
   await db.transaction(async (tx) => {
     await tx.query(sql`
