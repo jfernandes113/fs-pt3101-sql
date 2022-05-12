@@ -1,0 +1,22 @@
+{
+  "name": "sql-slonik-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "constants.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "docker:up": "docker-compose up",
+    "db:up": "node scripts/creation.js && node scripts/insertion.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "slonik": "^28.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
