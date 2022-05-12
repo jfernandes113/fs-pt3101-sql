@@ -1,0 +1,9 @@
+-- Borrado de todo
+DROP TABLE IF EXISTS pokemons_elements;
+DROP TABLE IF EXISTS gyms;
+DROP TABLE IF EXISTS pokemons;
+DROP TABLE IF EXISTS elements;
+DROP TABLE IF EXISTS leaders;
+
+DROP TYPE IF EXISTS types;
+DROP EXTENSION IF EXISTS "uuid-ossp";
