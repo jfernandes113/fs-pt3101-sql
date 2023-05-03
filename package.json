@@ -1,0 +1,25 @@
+{
+  "name": "fs-pt3101-sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfernandes113/fs-pt3101-sql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfernandes113/fs-pt3101-sql/issues"
+  },
+  "homepage": "https://github.com/jfernandes113/fs-pt3101-sql#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "slonik": "^33.3.1"
+  }
+}

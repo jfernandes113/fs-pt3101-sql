@@ -55,3 +55,4 @@ CREATE TABLE IF NOT EXISTS pokemons_elements (
     ON DELETE CASCADE,
   CONSTRAINT pokemon_element_id PRIMARY KEY (pokemon_id, element_id)
 );
+CREATE INDEX pokemons_types_idx ON pokemons USING GIN (types);
